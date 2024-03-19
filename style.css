@@ -1539,6 +1539,10 @@ i{
         font-size: 24px;
         margin: 15px 0;
     }
+    .down{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .down-container{
         flex-wrap: wrap;
     }
