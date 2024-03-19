@@ -1044,17 +1044,8 @@ i{
 
 
 /* ..............media Queries start................. */
-@media only screen and(max-width: 400px){
-        .down-container{
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-}
-/* @media only screen and(max-width: 768px){
-    .card-wrapper-cont{
-        flex-direction: column;
-    }
-} */
+
+/* <=====================320px==================================> */
 @media only screen and (max-width:320px){
     .text{
         font-size: 26px;
@@ -1085,256 +1076,10 @@ i{
     }
     
 }
-/* <=====================720px by 470px==================================> */
-@media only screen and (max-width:720px){
-    .main{
-        height: 86vh;
-    }
-    .text{
-        font-size: 20px;
-    }
-    .text2{
-        font-size: 10px;
-    }
-    .left{
-        height: 400px;
-    }
-    .right{
-        height: 377px;
-    }
-    .img1{
-        height: 250px;
-        width: auto;
-        top: 117px;
-    }
-    .main-btn{
-        width: 200px;
-        height: 50px;
-        font-size: 16px;
-        background-color: #0391D3;
-        margin: 30px 0;
-    }
-    .text-box1{
-        margin: 0;
-        width: 40vw;
-    }
-    .text3{
-        margin: 0;
-    }
-    .text-box2{
-        justify-content: center;
-        column-gap: 2vw;
-    }
-    .inner-text h1{
-        font-size: 40px;
-        padding: 0 5px ;
-        margin: 0;
-    }
-    .inner-text p{
-        font-size: 10px;
-    }
-    /* page2.................. */
-    .pic{
-        height: 148vh;
-        width: 100vw;
-    }
-    .pic-inner{
-        height: 550px;
-        margin: 0;
-    }
-    .pic-inner p{
-        font-size: 20px;
-        text-align: center;
-    }
-    .container{
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 580px;
-    }
-    .text4-cont{
-        width: 90vw;
-    }
-    .line-1{
-        font-size: 14px;
-        line-height: 25px;
-    }
-    .line-2{
-        font-size: 12px;
-    }
-    .cont-item-1{
-        width: 250px;
-        height: 376px;
-    }
-    .cont-item{
-        margin: 1vh 0.5vw;
-    }
-    .cont-item img{
-        width: 120px;
-    }
-    .cont-item>:nth-child(1){
-        height: 180px;
-        width: 170px;
-    }
-    .cont-item>:nth-child(2){
-        height: 180px;
-        width: 170px;
-    }
 
-    .service-cont{
-        width: 100vw;
-    }
-    .text5 ,.text6{
-        font-size: 16px;
-    }
-    /* page3....................... */
-    .page-3{
-        height: 920px;
-        margin: 50px 0;
-    }
-    .main-btn-ser{
-        height: 70px;
-        width: 250px;
-    }
-    .image-1{
-        width: 180px;
-        left: -24px;
-        bottom: 0;
-        top: 115px;
-    }
-    .image-2{
-        width: 170px;
-        bottom: 0;
-        top: 145px;
-        right: 0;
-    }
-    .image-3{
-        width: 240px;
-        left: 37px;
-        bottom: -11px;
-    }
-    .image-4{
-        height: 250px;
-        left: 20px;
-        top: 125px;
-    }
-    .up p{
-        font-size: 24px;
-        margin: 15px 0;
-    }
+/* <=====================320px==================================> */
 
-
-    /* page4..................... */
-    .page4{
-        height: 1250px;
-    }
-    .card-wrapper-cont{
-        flex-wrap: wrap;
-    }
-    .card-wrapper{
-        width: 290px;
-        height: 280px;
-        margin: 5px;
-    }
-    .mini-card{
-        height: 70px;
-        width: 80px;
-    }
-    .card1{
-        width: 290px;
-        height: 230px;
-        display: flex;
-        gap: 10px;
-    }
-    .card-content{
-        width: 68px;
-        height: 171px;
-        margin: 0 5px;
-    }
-    .text5{
-        font-size: 24px;
-        padding: 15px;
-    }
-    .text6{
-        padding-left: 15px;
-    }
-    .main-btn-ser{
-        padding-left: 25px;
-    }
-    ._para{
-        width: 170px;
-    }
-    /* page5.................. */
-    .ellipse{
-        top: -223px;
-    }
-    .parag{
-        padding: 0 0 0 10px;
-    }
-    /* page6.................. */
-    .page6{
-        height: 330vh;
-    }
-    .page6-inner{
-        display: flex;
-        flex-direction: column;
-        height: 285vh;
-    }
-    .pic-box{
-        margin: 20px 0;
-    }
-.inner-image1{
-    width: 223px;
-    top: 69px;
-    right: -10vw;
-}
-    /* page7........................ */
-    .page7-wrapper{
-        flex-direction: column;
-        height: 120vh;
-    }
-    .thin-card{
-        width: 300px;
-        height: 40px;
-    }
-    .thin-card> :nth-child(1){
-        font-size: 10px;
-    }
-    .thin-card> :nth-child(2){
-        font-size: 10px;
-    }
-    .thick-card-head{
-        width: 300px;
-        height: 180px;
-    }
-    .thick-card{
-        width: 300px;
-        height: 180px;
-    }
-    .cont-QA{
-        flex-direction: column;
-    }
-    /* page8............... */
-    .page8{
-        height: 150vh;
-    }
-    .page8-content{
-        height: 76vh;
-        width: 30vw;
-    }
-    .page8-heading:first-child{
-        font-size: 26px;
-    }
-    .nav-cont:nth-child(2){
-        font-size: 12px;
-    }
-    .call-num{
-        font-size: 10px;
-    }
-    .btn{
-        height: 40px;
-    }
-}
-/* <=====================720px by 470px==================================> */
+/* <=====================1080px==================================> */
 
 @media only screen and (max-width:1080px){
     .main{
@@ -1355,7 +1100,7 @@ i{
     }
     .img1{
         height: 350px;
-        width: auto;
+        /* width: auto; */
         top: 30px;
     }
     .main-btn{
@@ -1653,17 +1398,260 @@ i{
         height: 23vh;
     }
 }
-@media only screen and (max-width: 1280px){
+/* <=====================1080px==================================> */
+
+/* <=====================720px==================================> */
+@media only screen and (max-width:720px){
+    .main{
+        height: 86vh;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    .left{
+        height: 400px;
+    }
+    .right{
+        height: 377px;
+    }
+    .img1{
+        height: 250px;
+        width: auto;
+        top: 117px;
+    }
+    .main-btn{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        background-color: #0391D3;
+        margin: 30px 0;
+    }
+    .text-box1{
+        margin: 0;
+        width: 40vw;
+    }
+    .text3{
+        margin: 0;
+    }
+    .text-box2{
+        justify-content: center;
+        column-gap: 2vw;
+    }
+    .inner-text h1{
+        font-size: 40px;
+        padding: 0 5px ;
+        margin: 0;
+    }
+    .inner-text p{
+        font-size: 10px;
+    }
+    /* page2.................. */
+    .pic{
+        height: 148vh;
+        width: 100vw;
+    }
+    .pic-inner{
+        height: 550px;
+        margin: 0;
+    }
+    .pic-inner p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 580px;
+    }
+    .text4-cont{
+        width: 90vw;
+    }
+    .line-1{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .line-2{
+        font-size: 12px;
+    }
+    .cont-item-1{
+        width: 250px;
+        height: 376px;
+    }
+    .cont-item{
+        margin: 1vh 0.5vw;
+    }
+    .cont-item img{
+        width: 120px;
+    }
+    .cont-item>:nth-child(1){
+        height: 180px;
+        width: 170px;
+    }
+    .cont-item>:nth-child(2){
+        height: 180px;
+        width: 170px;
+    }
+
+    .service-cont{
+        width: 100vw;
+    }
+    .text5 ,.text6{
+        font-size: 16px;
+    }
+    /* page3....................... */
+    .page-3{
+        height: 920px;
+        margin: 50px 0;
+    }
+    .main-btn-ser{
+        height: 70px;
+        width: 250px;
+    }
+    .image-1{
+        width: 180px;
+        left: -24px;
+        bottom: 0;
+        top: 115px;
+    }
+    .image-2{
+        width: 170px;
+        bottom: 0;
+        top: 145px;
+        right: 0;
+    }
+    .image-3{
+        width: 240px;
+        left: 37px;
+        bottom: -11px;
+    }
+    .image-4{
+        height: 250px;
+        left: 20px;
+        top: 125px;
+    }
+    .up p{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+
+
+    /* page4..................... */
+    .page4{
+        height: 1250px;
+    }
     .card-wrapper-cont{
         flex-wrap: wrap;
-
     }
-    .down-container{
-        flex-wrap: wrap;
+    .card-wrapper{
+        width: 290px;
+        height: 280px;
+        margin: 5px;
     }
-    .down{
+    .mini-card{
+        height: 70px;
+        width: 80px;
+    }
+    .card1{
+        width: 290px;
+        height: 230px;
+        display: flex;
+        gap: 10px;
+    }
+    .card-content{
+        width: 68px;
+        height: 171px;
+        margin: 0 5px;
+    }
+    .text5{
+        font-size: 24px;
+        padding: 15px;
+    }
+    .text6{
+        padding-left: 15px;
+    }
+    .main-btn-ser{
+        padding-left: 25px;
+    }
+    ._para{
+        width: 170px;
+    }
+    /* page5.................. */
+    .ellipse{
+        top: -223px;
+    }
+    .parag{
+        padding: 0 0 0 10px;
+    }
+    /* page6.................. */
+    .page6{
+        height: 330vh;
+    }
+    .page6-inner{
+        display: flex;
+        flex-direction: column;
+        height: 285vh;
+    }
+    .pic-box{
+        margin: 20px 0;
+    }
+.inner-image1{
+    width: 223px;
+    top: 69px;
+    right: -10vw;
+}
+    /* page7........................ */
+    .page7-wrapper{
+        flex-direction: column;
+        height: 120vh;
+    }
+    .thin-card{
+        width: 300px;
+        height: 40px;
+    }
+    .thin-card> :nth-child(1){
+        font-size: 10px;
+    }
+    .thin-card> :nth-child(2){
+        font-size: 10px;
+    }
+    .thick-card-head{
+        width: 300px;
+        height: 180px;
+    }
+    .thick-card{
+        width: 300px;
+        height: 180px;
+    }
+    .cont-QA{
         flex-direction: column;
     }
+    /* page8............... */
+    .page8{
+        height: 150vh;
+    }
+    .page8-content{
+        height: 76vh;
+        width: 30vw;
+    }
+    .page8-heading:first-child{
+        font-size: 26px;
+    }
+    .nav-cont:nth-child(2){
+        font-size: 12px;
+    }
+    .call-num{
+        font-size: 10px;
+    }
+    .btn{
+        height: 40px;
+    }
 }
+/* <=====================720px==================================> */
+
+
+
 /* ..............media Queries End................. */
 
