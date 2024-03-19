@@ -1414,6 +1414,9 @@ i{
     .text2{
         font-size: 10px;
     }
+    .menu{
+        display: block;
+    }
     .left{
         height: 400px;
     }
