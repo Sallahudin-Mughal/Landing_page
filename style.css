@@ -1229,6 +1229,9 @@ i{
         font-size: 30px;
         margin: 15px 0;
     }
+    .down-container{
+        flex-wrap: wrap;
+    }
     .cont-inner{
         width: 240px;
         height: 170px;
@@ -1536,7 +1539,9 @@ i{
         font-size: 24px;
         margin: 15px 0;
     }
-
+    .down-container{
+        flex-wrap: wrap;
+    }
 
     /* page4..................... */
     .page4{
@@ -1597,11 +1602,11 @@ i{
     .pic-box{
         margin: 20px 0;
     }
-.inner-image1{
-    width: 223px;
-    top: 69px;
-    right: -10vw;
-}
+    .inner-image1{
+        width: 223px;
+        top: 69px;
+        right: -10vw;
+    }
     /* page7........................ */
     .page7-wrapper{
         flex-direction: column;
